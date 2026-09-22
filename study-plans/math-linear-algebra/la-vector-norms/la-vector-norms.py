@@ -14,7 +14,6 @@ def vector_norms(v: list) -> np.ndarray:
         l2 += i**2
 
     l2 = math.sqrt(l2)
-    
     linf = max(abs(i) for i in v)
     
     return np.array([l1, l2, linf], dtype='float64')
