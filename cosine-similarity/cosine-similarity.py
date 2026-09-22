@@ -24,5 +24,6 @@ def cosine_similarity(a: list, b: list) -> float:
         return 0.0
 
     res = dot_prod / (norm_a * norm_b)
+    return res
     
     
