@@ -12,4 +12,4 @@ def reshape_array(data: list, operation: str) -> np.ndarray:
     elif operation == 'transpose':
         return arr.T
     else:
-        return arr.reshape(1, len(arr), -1)
+        return arr.reshape(1, *arr.shape)
