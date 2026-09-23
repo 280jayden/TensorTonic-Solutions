@@ -7,7 +7,7 @@ def linear_combination(vectors: list, coefficients: list) -> np.ndarray:
 
     res = np.zeros(len(vectors[0]))
     
-    for i, value in enumerate(vectors):
-        for j, v in enumerate(value):
-            res[j] += v * coefficients[i]
+    for i, v1 in enumerate(vectors):
+        for j, v2 in enumerate(v1):
+            res[j] += v2 * coefficients[i]
     return res
