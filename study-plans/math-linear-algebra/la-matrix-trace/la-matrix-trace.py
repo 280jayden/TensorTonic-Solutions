@@ -6,9 +6,7 @@ def matrix_trace(A: list) -> float:
     """
     res = 0
 
-    for i, v1 in enumerate(A):
-        for j, v2 in enumerate(v1):
-            if j == i:
-                res += v2
+    for i in range(len(A)):
+        res += A[i][i]
 
     return float(res)
