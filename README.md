@@ -26,6 +26,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Implement Euclidean Distance | Compute Euclidean distance between equal-length NumPy vectors as the square root of summed squared differences. | https://www.tensortonic.com/problems/euclidean-distance |
 | Implement Manhattan Distance | Compute Manhattan distance between equal-length vectors by summing absolute coordinate differences. | https://www.tensortonic.com/problems/manhattan-distance |
 | Matrix Transpose | Implement matrix transpose in NumPy without built-in transpose helpers, preserving rectangular shapes and the original input. | https://www.tensortonic.com/problems/matrix-transpose |
+| Hadamard Product | Compute elementwise multiplication between two same-shaped NumPy matrices to produce their Hadamard product. | https://www.tensortonic.com/study-plans/math-linear-algebra/la-hadamard-product |
 | Linear Combination | Compute a weighted linear combination of equal-length NumPy vectors using one aligned scalar coefficient per vector. | https://www.tensortonic.com/study-plans/math-linear-algebra/la-linear-combination |
 | Matrix Trace | Compute the trace of a square NumPy matrix by summing its main-diagonal elements with numeric dtype support. | https://www.tensortonic.com/study-plans/math-linear-algebra/la-matrix-trace |
 | Matrix Transpose | Transpose a rectangular NumPy matrix by swapping its row and column axes without changing element values. | https://www.tensortonic.com/study-plans/math-linear-algebra/la-matrix-transpose |
